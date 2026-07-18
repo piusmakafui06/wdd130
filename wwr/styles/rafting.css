@@ -56,7 +56,7 @@ h1 {
     position: absolute;
     top: 20px;
     width: 100%;
-    padding: 16px;
+    padding: 10px;
     text-align: center;
     opacity: 0.8;
     background-color: var(--accent1-color);
@@ -70,8 +70,12 @@ h1 {
     text-align: center;
     background-color: var(--accent1-color);
     color: var(--accent2-color);
-    top: 340px;
+    top: 330px;
     margin: 20px;
+}
+
+article h2 {
+    font-family: var(--body-font);
 }
 
 .hero article img {
@@ -81,7 +85,7 @@ h1 {
 
 section h2 {
     width: 100%;
-    padding: 16px;
+    padding: 10px;
     text-align: center;
     opacity: 0.7;
     background-color: blue;
