@@ -1,5 +1,4 @@
 :root {
-    --primary-color: rgb(19, 177, 239);
     --secondary-color: lightblue;
     --accent1-color: rgb(20, 110, 246);
     --accent2-color: white;
@@ -65,7 +64,7 @@ h1 {
     font-family: var(--body-font);
 }
 
-article {
+.hero article {
     position: absolute;
     padding: 5px;
     text-align: center;
