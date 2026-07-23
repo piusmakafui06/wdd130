@@ -1,7 +1,9 @@
 :root {
+    --primary-color: blue;
     --secondary-color: lightblue;
     --accent1-color: rgb(20, 110, 246);
     --accent2-color: white;
+    --color: darkblue;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -130,14 +132,14 @@ section h2 {
     padding: 10px;
     text-align: center;
     opacity: 0.7;
-    background-color: blue;
+    background-color: var(--primary-color);
     color: var(--accent2-color);
     font-family: var(--body-font);
     grid-column: 1/4;
 }
 
 section p {
-    color: darkblue;
+    color: var(--color);
 }
 
 figure img {
@@ -150,13 +152,13 @@ figcaption {
 }
 
 footer {
-    border-top: 1px solid blue;
+    border-top: 1px solid var(--primary-color);
     display: grid;
     grid-template-columns: 1fr 200px;
     align-items: center;
 }
 
 footer p {
-    color: darkblue;
+    color: var(--color);
     text-align: center;
 }
