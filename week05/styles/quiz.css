@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: gainsboro;
+    border-radius: 2px;
+    padding: 1rem;
+}
+
+input, textarea, select {
+    background-color: white;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin: 0.5rem;
+}
+
+#last {
+    display: block;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-size: large;
+}
+
+label {
+    margin: 0.5rem 0 0 0;
+}
+
