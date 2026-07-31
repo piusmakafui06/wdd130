@@ -1,0 +1,190 @@
+:root {
+    --primary-color: blue;
+    --secondary-color: lightblue;
+    --accent1-color: rgb(20, 110, 246);
+    --accent2-color: white;
+    --color: darkblue;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
+#first {
+    display: flex;
+}
+
+iframe {
+    width: 400px;
+    height: 325px;
+    border: none;
+}
+
+form {
+    padding: 0 2rem;
+    gap: 0 30px;
+}
+
+.text,
+.email,
+.radio {
+    display: grid;
+    grid-template-columns: 100px 100%;
+    align-items: center;
+    gap: 15px;
+}
+
+.text input,
+.email input {
+    width: 240px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radio label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 8px;
+    background-color: var(--accent1-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--accent2-color);
+    font-size: large;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.box {
+    margin: .30rem;
+}
+
+.sub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    grid-column: 1/4;
+}
+
+.one {
+    margin: 1rem;
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 16px;
+    padding: 8px;
+}
+
+section {
+    margin-top: 15px;
+}
+
+.hero {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    grid-column: 1/5;
+}
+
+section p {
+    color: var(--color);
+}
+
+figure img {
+    width: 120px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: small;
+}
+
+footer {
+    border-top: 1px solid var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    align-items: center;
+}
+
+footer p {
+    color: var(--color);
+    text-align: center;
+}
