@@ -8,7 +8,7 @@
     <meta name="description"
       content="A basic page that gives the contact information of White Water Rafting Company.">
     <meta name="author" content="Pius Ahiave">
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
+        <div class="subhero">
             <h1>White Water Rafting Company</h1>
             <p>123 Main River Street</p>
             <p>Kolob, California</p>
@@ -51,10 +51,12 @@
                 <div class="radio">
                     <label>Message Purpose</label>
                     <div class="options">
-                        <label><input type="radio">General Inquiry</label>
-                        <label><input type="radio">Reservation
+                        <label for="gi"><input type="radio" id="gi" name="mp">General
+                            Inquiry</label>
+                        <label for="rq"><input type="radio" id="rq" name="mp">Reservation
                             Question</label>
-                        <label><input type="radio">Website Suggestion</label>
+                        <label for="ws"><input type="radio" id="ws" name="mp">Website
+                            Suggestion</label>
                     </div>
                 </div>
                 <div class="textarea">
@@ -72,24 +74,24 @@
                 </div>
             </form>
         </div>
-        <section>
+        <section class="next">
             <h2>We Are Here to Serve You</h2>
             <div class="sub">
                 <div class="one">
                     <figure>
-                        <img src="images/mavis.avif" alt="water rafting">
+                        <img src="images/mavis.png" alt="water rafting">
                         <figcaption>Mavis Brown<br>(Secretary)</figcaption>
                     </figure>
                 </div>
                 <div class="one">
                     <figure>
-                        <img src="images/eric.avif" alt="water rafting">
+                        <img src="images/eric.png" alt="water rafting">
                         <figcaption>Eric Smith<br>(Manager)</figcaption>
                     </figure>
                 </div>
                 <div class="one">
                     <figure>
-                        <img src="images/christian.avif" alt="water rafting">
+                        <img src="images/christian.png" alt="water rafting">
                         <figcaption>Chris Rogers<br>(Asst. Manager)</figcaption>
                     </figure>
                 </div>

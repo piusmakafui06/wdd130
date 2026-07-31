@@ -35,9 +35,81 @@ nav ul {
     align-items: center;
 }
 
-nav a {
+a {
     text-align: center;
     text-decoration: none;
+}
+
+#first {
+    display: flex;
+}
+
+iframe {
+    width: 400px;
+    height: 325px;
+    border: none;
+}
+
+form {
+    padding: 0 2rem;
+    gap: 0 30px;
+}
+
+.text,
+.email,
+.radio {
+    display: grid;
+    grid-template-columns: 100px 100%;
+    align-items: center;
+    gap: 15px;
+}
+
+.text input,
+.email input {
+    width: 240px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radio label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 8px;
+    background-color: var(--accent1-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--accent2-color);
+    font-size: large;
 }
 
 section {
@@ -89,6 +161,17 @@ article {
     position: relative;
 }
 
+.subhero {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.subhero p {
+    padding: 0;
+    margin: 0;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -96,7 +179,7 @@ article {
     border: 1px solid var(--secondary-color);
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -135,7 +218,13 @@ section h2 {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     font-family: var(--body-font);
-    grid-column: 1/4;
+    grid-column: 1/5;
+}
+
+.next {
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
 }
 
 section p {
