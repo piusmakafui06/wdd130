@@ -115,6 +115,7 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    margin-top: 15px;
 }
 
 .box {
@@ -142,10 +143,6 @@ footer {
 nav {
     margin: 16px;
     padding: 8px;
-}
-
-section {
-    margin-top: 15px;
 }
 
 .hero {
